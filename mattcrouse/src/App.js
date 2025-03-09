@@ -1,13 +1,16 @@
-import logo from './logo.svg';
+import logo from './Baller.jpg';
 import './App.css';
 
-function App() {
+function App(props) {
+  const name=props.name
+
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>{name}</code> and save to reload.
         </p>
         <a
           className="App-link"
